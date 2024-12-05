@@ -1,0 +1,69 @@
+.data-export-parent {
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .data-export-card {
+    max-width: 1200px;
+    margin: 5% auto 0;
+    max-height: 90vh;
+    width: 90%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-export-card .ant-card-body {
+    padding: 24px;
+  }
+  
+  .data-export-button {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .data-export-select,
+  .data-export-rangepicker {
+    width: 100%;
+  }
+  
+@media (max-width: 480px) {
+  .responsive-calendar .ant-picker-panel-container {
+    position: fixed !important; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    z-index: 1000;
+    background: white;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .responsive-calendar .ant-picker-panel-container {
+    position: fixed !important;
+    top: 10%;
+    left: 5%;
+    width: 90vw;
+    height: 80vh; 
+    overflow: auto;
+    z-index: 1000;
+    background: white;
+    border-radius: 10px; 
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .responsive-calendar .ant-picker-panel-container {
+    position: fixed !important;
+    top: 15%;
+    left: 15%;
+    width: 70vw; 
+    height: 70vh; 
+    overflow: auto;
+    z-index: 1000;
+    background: white;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,8 @@
+.download-modal .ant-modal-body {
+    max-height: 350px;
+    overflow: auto;
+}
+.download-modal pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
